@@ -12,3 +12,13 @@
 a:hover {
     color: grey;
 }
+
+.footer {
+    position: fixed;
+    margin-bottom: 2em;
+}
+
+.signup {
+    padding: 1.5em;
+    line-height: 2em;
+}
