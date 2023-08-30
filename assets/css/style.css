@@ -1,5 +1,5 @@
 * {
-    font-family: 'Wix Madefor Display', 'Lato', sans-serif;
+    font-family: "Wix Madefor Display", "Lato", sans-serif;
 }
 
 a {
@@ -23,30 +23,29 @@ img {
     text-align: center;
 }
 
-#wrapper {
+#header {
     grid-column: 1 / 9;
     padding: 20px;
-    background-color: #0892A5;
+    text-align: left;
+    background-color: #0892a5;
 }
 
-#menu {
+#nav {
     grid-column: 9 / -1;
     padding: 20px;
-    background-color: #BB7E5D;
+    background-color: #bb7e5d;
 }
 
-#menu li {
+#nav li {
     list-style-type: none;
     float: right;
-    margin-right: 20px;
-    line-height: 70px;
 }
 
-#hero-left {
+#top-left {
     grid-column: 1 / 7;
 }
 
-#hero-right {
+#top-right {
     grid-column: 7 / -1;
 }
 
@@ -70,29 +69,35 @@ img {
 #footer-left {
     grid-column: 1 / 5;
     padding: 20px;
-    background-color: #BB7E5D;
+    background-color: #bb7e5d;
 }
 
 #footer-right {
     grid-column: 5 / -1;
     padding: 20px;
-    background-color: #0892A5;
+    background-color: #0892a5;
 }
 
-@media screen and (max-width: 672px) {
+@media screen and (max-width: 576px) {
     .container {
         grid-column: span 1;
     }
 }
 
-@media screen and (max-width: 990px) {
+@media screen and (max-width: 768px) {
     .container {
-        grid-column: span 4;
+        grid-column: span 2;
     }
 }
 
-@media screen and (max-width: 1296px) {
+@media screen and (max-width: 992px) {
     .container {
         grid-column: span 6;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .container {
+        grid-column: span 12;
     }
 }
