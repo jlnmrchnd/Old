@@ -4,37 +4,38 @@
 
 a {
     text-decoration: none;
+    color: #f8dcbe;
 }
 
 a:hover {
-    border-bottom: 1px solid #777777;
+    border-bottom: 1.5px solid #777777;
+}
+
+img {
+    width: 100%;
 }
 
 .container {
-    height: 100%;
     display: grid;
-    grid-gap: 3px;
     grid-template-columns: repeat(12, 1fr);
-    grid-template-rows: 100px auto 100px;
-}
-
-.header {
-    grid-column: span 9;
-    font-family: 'Wix Madefor Display';
-    font-size: 150%;
-    letter-spacing: 4px;
-    background-color: blue;
-}
-
-.menu {
-    grid-column: 10 / -1;
-    display: inline;
+    grid-gap: 5px;
+    align-self: auto;
     text-align: center;
-    float: right;
-    background-color: yellow;
 }
 
-.menu li {
+#wrapper {
+    grid-column: 1 / 9;
+    padding: 20px;
+    background-color: #0892A5;
+}
+
+#menu {
+    grid-column: 9 / -1;
+    padding: 20px;
+    background-color: #BB7E5D;
+}
+
+#menu li {
     list-style-type: none;
     float: right;
     margin-right: 20px;
@@ -42,27 +43,56 @@ a:hover {
 }
 
 #hero-left {
-    grid-column: 2 / 5;
-    padding: 20px;
-    text-align: center;
+    grid-column: 1 / 7;
 }
 
 #hero-right {
-    grid-column: 6 / 12;
-    margin: 15px;
-    float: right;
+    grid-column: 7 / -1;
 }
 
-/*
+#middle-left {
+    grid-column: 1 / 7;
+}
 
-footer {
-    position: absolute;
+#middle-right {
+    grid-column: 7 / -1;
+}
+
+#bottom-left {
+    grid-column: 1 / 7;
+}
+
+#bottom-right {
+    grid-column: 7 / -1;
     background-color: red;
 }
 
-#contact {
-    width: 100%;
-    background-color: green;
+#footer-left {
+    grid-column: 1 / 5;
+    padding: 20px;
+    background-color: #BB7E5D;
 }
 
-*/
+#footer-right {
+    grid-column: 5 / -1;
+    padding: 20px;
+    background-color: #0892A5;
+}
+
+@media screen and (max-width: 672px) {
+    .container {
+        grid-column: span 1;
+    }
+}
+
+@media screen and (max-width: 990px) {
+    .container {
+        grid-column: span 4;
+    }
+}
+
+@media screen and (max-width: 1296px) {
+    .container {
+        grid-column: span 6;
+    }
+}
