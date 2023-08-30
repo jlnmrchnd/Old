@@ -68,6 +68,7 @@ img {
 
 #footer-left {
     grid-column: 1 / 5;
+    text-align: left;
     padding: 20px;
     background-color: #bb7e5d;
 }
