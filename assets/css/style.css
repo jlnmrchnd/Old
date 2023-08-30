@@ -2,43 +2,58 @@
     font-family: 'Wix Madefor Display', 'Lato', sans-serif;
 }
 
-#introduction {
-    width: 100%;
-}
-
-#intro-heading {}
-
-.hero-image {
-    width: 100%;
-}
-
-#socials {}
-
-#signup {
-    line-height: 2em;
-}
-
-body {
-    font-family: 'Wix Madefor Display';
-}
-
-header {
-    font-family: 'Wix Madefor Display';
-    letter-spacing: 4px;
-}
-
-.nav ul {
+a {
     text-decoration: none;
-    list-style-type: none;
-    float: right;
-    margin-top: 0.5em;
-    margin-right: 1em;
-    color: inherit;
 }
 
-.nav ul:hover {
+a:hover {
     border-bottom: 1px solid #777777;
 }
+
+.container {
+    height: 100%;
+    display: grid;
+    grid-gap: 3px;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: 100px auto 100px;
+}
+
+.header {
+    grid-column: span 9;
+    font-family: 'Wix Madefor Display';
+    font-size: 150%;
+    letter-spacing: 4px;
+    background-color: blue;
+}
+
+.menu {
+    grid-column: 10 / -1;
+    display: inline;
+    text-align: center;
+    float: right;
+    background-color: yellow;
+}
+
+.menu li {
+    list-style-type: none;
+    float: right;
+    margin-right: 20px;
+    line-height: 70px;
+}
+
+#hero-left {
+    grid-column: 2 / 5;
+    padding: 20px;
+    text-align: center;
+}
+
+#hero-right {
+    grid-column: 6 / 12;
+    margin: 15px;
+    float: right;
+}
+
+/*
 
 footer {
     position: absolute;
@@ -49,3 +64,5 @@ footer {
     width: 100%;
     background-color: green;
 }
+
+*/
