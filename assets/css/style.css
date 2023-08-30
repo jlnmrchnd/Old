@@ -1,34 +1,51 @@
 * {
-  margin: 0;
-  padding: 0;
-}
-
-nav {
-  background-color: purple;
-  color: white;
-  float: right;
+    font-family: 'Wix Madefor Display', 'Lato', sans-serif;
 }
 
 #introduction {
-  padding: 2em;
+    width: 100%;
 }
 
-a:hover {
-  color: grey;
+#intro-heading {}
+
+.hero-image {
+    width: 100%;
 }
 
-.footer {
-  position: fixed;
-  margin-bottom: 2em;
+#socials {}
+
+#signup {
+    line-height: 2em;
+}
+
+body {
+    font-family: 'Wix Madefor Display';
+}
+
+header {
+    font-family: 'Wix Madefor Display';
+    letter-spacing: 4px;
+}
+
+.nav ul {
+    text-decoration: none;
+    list-style-type: none;
+    float: right;
+    margin-top: 0.5em;
+    margin-right: 1em;
+    color: inherit;
+}
+
+.nav ul:hover {
+    border-bottom: 1px solid #777777;
+}
+
+footer {
+    position: absolute;
+    background-color: red;
 }
 
 #contact {
-}
-
-#socials {
-}
-
-.signup {
-  padding: 1.5em;
-  line-height: 2em;
+    width: 100%;
+    background-color: green;
 }
