@@ -97,16 +97,16 @@ Form to capture pet status and free text for messages / comments
 All external links open in a separate tab when clicked
 
 # RESOURCES
-Site Name & Brand Ideas [lifelearn.com](https://www.lifelearn.com/2016/02/24/the-jumbo-reference-list-of-pet-puns/)  
+Site name & brand: [lifelearn.com](https://www.lifelearn.com/2016/02/24/the-jumbo-reference-list-of-pet-puns/)  
 The name for the site "The Bark Side" was selected, with "Pawsome" and "Pet-tential" close contenders
 
-Logo Design [Looka Logos](https://looka.com/editor/144159302)  
+Logo design: [Looka Logos](https://looka.com/editor/144159302)  
 Logo design and creative ideas; though none selected, the idea for a paw icon was decided
 
-Gallery [Code Institute - Love Running project](https://learn.codeinstitute.net/dashboard)  
-After completing this project, the idea of a gallary page was copied and implemented
+Gallery page: [Code Institute - Love Running project](https://learn.codeinstitute.net/dashboard)  
+After completing this project, the idea of a gallery page was copied and implemented
    	
-CSS Grid [Scrimba](https://scrimba.com/learn/cssgrid)  
+CSS grid: [Scrimba](https://scrimba.com/learn/cssgrid)  
 Considering Bootstrap options, and after watching the "Learn CSS Grid" tutorial, the CSS Grid system was implemented as the main layout of the site  
 
 # TESTING:  
