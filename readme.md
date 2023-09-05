@@ -37,8 +37,6 @@ A mobile-first approach was taken:
 * Site expands to desktop view easily
 * Challenge with collapsing margins leaving 'Sign up' buttons hidden behind / on top of other content
 
-![wireframes](assets/images/TheBarkSide.png)
-
 # PAGE CONTENT:  
 Home page:  
 * Brief introduction
@@ -50,6 +48,8 @@ Gallery
 Sign Up
 Contact
 FAQ
+
+![wireframes](assets/images/TheBarkSide.png)
 
 * Section about each pet:
 Dogs
@@ -116,5 +116,5 @@ Regular validation of HTML
 W3 CSS Validator (https://jigsaw.w3.org/css-validator/)  
 Regular validation of CSS  
 
-# DEPLOYMENT PRCOEDURE  
+# DEPLOYMENT PROCEDURE  
 ?????
