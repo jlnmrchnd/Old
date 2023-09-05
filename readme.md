@@ -37,7 +37,7 @@ A mobile-first approach was taken:
 * Site expands to desktop view easily
 * Challenge with collapsing margins leaving 'Sign up' buttons hidden behind / on top of other content
 
-[!wireframes]("assets/images/TheBarkSide.png")
+![wireframes](assets/images/TheBarkSide.png)
 
 # PAGE CONTENT:  
 Home page:  
