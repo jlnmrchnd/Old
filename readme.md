@@ -36,7 +36,9 @@ A mobile-first approach was taken:
 * Homepage with large, square boxes which sit comfortably in 2 or even 1 column
 * Site expands to desktop view easily
 * Challenge with collapsing margins leaving 'Sign up' buttons hidden behind / on top of other content
-	
+
+[!wireframes]("assets/images/TheBarkSide.png")
+
 # PAGE CONTENT:  
 Home page:  
 * Brief introduction
