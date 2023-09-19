@@ -1,108 +1,148 @@
 <!doctype html>
 <html lang="en-US">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta
-      name="description"
-      content="The Bark Side provides information on pets. Sign up to receive regular pupdates!">
-    <meta
-      name="keywords"
-      content="pet, pets, dog, cat, rabbit, bunny, guinea pig, hamster, health, vet, food, toy">
-    <meta name="author" content="Julien Marchand">
-    <script src="https://kit.fontawesome.com/756d34e92f.js"
-      crossorigin="anonymous"></script>
-    <link
-      href="https://fonts.googleapis.com/css2?family=Lato&family=Oswald&family=Wix+Madefor+Display&display=swap"
-      rel="stylesheet">
-    <link rel="stylesheet" href="assets/css/style.css" type="text/css">
-    <title>The Bark Side</title>
-  </head>
 
-    <body>
-        <div id="header">
-            <h1><i class="fa-solid fa-paw"></i> The Bark Side</h1>
-        </div>
-        <div id="navbar">
-            <ul>
-                <li><a href="gallery.html">Gallery</a></li>
-                <li><a href="signup.html">Sign Up</a></li>
-                <li><a href="#footer-left">Contact</a></li>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description"
+    content="The Bark Side provides guidance on choosing the right pet. Contact us with specific questions!">
+  <meta name="keywords"
+    content="pet, pets, dog, cat, rabbit, bunny, guinea pig, hamster, fish, reptile, bird, health, vet, food">
+  <meta name="author" content="Julien Marchand">
+  <script src="https://kit.fontawesome.com/756d34e92f.js" crossorigin="anonymous"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Lato&family=Oswald&family=Wix+Madefor+Display&display=swap"
+    rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+  <link rel="stylesheet" href="assets/css/style.css" type="text/css">
+  <title>The Bark Side</title>
+</head>
+
+<body>
+
+  <!-- NAV START -->
+
+  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid navbar">
+      <a class="navbar-brand" href="index.html"><i class="fa-solid fa-paw"></i>The Bark Side</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+        aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">About Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="pets.html">Pets</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="gallery.html">Gallery</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Help
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#footer">Contact us</a></li>
+              <li><a class="dropdown-item" href="form.html">Questions or suggestions?</a></li>
+              <li><a class="dropdown-item" href="faq.html">FAQ</a></li>
             </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- NAV END / MAIN START -->
+
+  <section class="container-fluid main-content">
+    <div class="row">
+      <div class="col-4 content-block-one">
+        <h2><i class="fa-regular fa-comment-dots" style="color: #000000;"></i>
+          <br>
+          Help with finding a pet
+        </h2>
+        <br>
+        <img src="assets/images/walkies.jpg" alt="dogs being walked on-lead">
+      </div>
+      <div class="col-4 content-block-two">
+        <h2><i class="fa-regular fa-circle-question" style="color: #000000;"></i>
+          <br>
+          Where to start your search
+        </h2>
+        <br>
+        <img src="assets/images/kitten_shelf.jpg" alt="a kitten with one paw on the windowsil">
+      </div>
+      <div class="col-4 content-block-three">
+        <h2><i class="fa-solid fa-check" style="color: #000000;"></i>
+          <br>
+          Already decided?
+        </h2>
+        <br>
+        <img src="assets/images/cat_lying.jpg" alt="a cat looking to the side">
+      </div>
+    </div>
+  </section>
+
+  <!-- MAIN END / WRAPPER START -->
+
+  <section class="wrapper">
+    <div class="container-fluid">
+      <div class="row">
+        <div>
+          <h2>...a thousand words!</h2>
+          <p>Take a look at some of the <i>purrfect</i> pics our users have shared.
+          </p>
         </div>
-        <div class="card">
-            <div id="top-left">
-                <h2>What We're About</h2>
-                <br>
-                    <p>
-                        Here at the Bark Side we hope to provide information and relevant details about owning your own pet - whether a more traditional choice, or something more outlandish!
-                    </p>
-            </div>
+      </div>
+      <div class="row">
+        <div class="col">
+          <a href="gallery.html"><img src="assets/images/puppy_licking_paw.jpg" alt="???"></a>
         </div>
-        <div class="righthand-img">
-            <img class="home-img" src="assets/images/walkies.jpg" alt="dogs being walked on-lead">
+      </div>
+    </div>
+  </section>
+
+  <!-- WRAPPER END / FOOTER START -->
+
+  <section class="footer" id="footer">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col ft-lh-col">
+          <h4>Find inspiration:</h4>
+          <p>
+            <a href="https://www.youtube.com" target="_blank" rel="noopener">
+              <i class="fa-brands fa-youtube" style="color: #000000;"></i></a>
+            <a href="https://www.facebook.com" target="_blank" rel="noopener">
+              <i class="fa-brands fa-square-facebook" style="color: #000000"></i></a>
+            <a href="https://www.instagram.com" target="_blank" rel="noopener">
+              <i class="fa-brands fa-square-instagram" style="color: #000000"></i></a>
+            <a href="https://www.twitter.com" target="_blank" rel="noopener">
+              <i class="fa-brands fa-square-x-twitter" style="color: #000000"></i></a>
+          </p>
+          <i class="fa-solid fa-paw"></i> The Bark Side
         </div>
-        <div id="middle-left">
-            <iframe src="https://petopedia.petscorner.co.uk/" title="Petopedia"></iframe>
-            <!-- <img src="assets/images/kitten_shelf.jpg" alt="a kitten with one paw on the windowsil"> -->
+        <div class="col ft-rh-col">
+          <h3>Have questions?</h3>
+          <br>
+          <p>
+            <a href="form.html">Ask us<i class="fa-solid fa-envelope-open" style="color: #000000;"></i></a>
+          </p>
         </div>
-        <div class="cardright">
-            <div id="middle-right">
-                <h2>Helpful Tips</h2>
-                <br>
-                    <p>
-                        You'll find helpful hints, links to relevant services outside the scope of this site, and some pictures to help guide your choice
-                    </p>
-            </div>
-        </div>
-        <div class="card">
-            <div id="bottom-left">
-                <h2>Stay In Touch</h2>
-                    <p>
-                        So let's begin your search for the perfect house pet! Alternatively, stay up to date with the latest from The Bark Side by signing up.
-                    </p>
-                        <a href="signup.html">Sign up</a>
-            </div>
-        </div>
-        <div class="righthand-img">
-            <img src="assets/images/cat_lying.jpg" alt="a cat looking to the side">
-        </div>
-        <div id="footer-left">
-            <div>
-                <p id="logo-p">
-                    <i class="fa-solid fa-paw"></i> Get in touch
-                </p>
-            </div>
-            <div class="contact-p">
-                <h4>Email:</h4>
-                    <p>info@thebarkside.com</p>
-            </div>
-            <div class="contact-p">
-                <h4>Find us on:</h4>
-                    <p>
-                        <a href="https://www.facebook.com" target="_blank" rel="noopener">
-                            <i class="fa-brands fa-square-facebook" style="color: #000000"></i></a>
-                        <a href="https://www.instagram.com" target="_blank" rel="noopener">
-                            <i class="fa-brands fa-square-instagram" style="color: #000000"></i></a>
-                        <a href="https://www.twitter.com" target="_blank" rel="noopener">
-                            <i class="fa-brands fa-square-x-twitter" style="color: #000000"></i></a>
-                    </p>
-            </div>
-        </div>
-        <div id="footer-right">
-            <div id="subscribe-h">
-                <p>Subscribe
-                    <i class="fa-solid fa-envelope-open" style="color: #000000;"></i>
-                </p>
-            </div>
-            <div id="subscribe-p">
-                <p>Sign up for monthly updates on all things pets!</p>
-            </div>
-            <div id="subscribe">
-                <p>
-                    <a href="signup.html">Subscribe</a>
-                </p>
-            </div>
-        </div>
-  </body>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER END / SCRIPTS START -->
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+    crossorigin="anonymous"></script>
+
+  <!-- SCRIPTS END -->
+
+</body>
+
 </html>
