@@ -20,17 +20,22 @@
 
 <body>
 
-  <!-- BOOTSTRAP NAVBAR -->
+  <!-- BOOTSTRAP NAVBAR START -->
 
   <nav class="navbar navbar-expand-lg bg-body-tertiary">
-    <div class="container-fluid">
-      <a class="navbar-brand" href="index.html"><i class="fa-solid fa-paw"></i> The Bark Side</a>
+    <div class="container-fluid navbar">
+      <a class="navbar-brand" href="index.html">
+        <h1><i class="fa-solid fa-paw"></i>The Bark Side</h1>
+      </a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
         aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarNavDropdown">
         <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">About Us</a>
+          </li>
           <li class="nav-item">
             <a class="nav-link" href="pets.html">Pets</a>
           </li>
@@ -52,185 +57,249 @@
     </div>
   </nav>
 
-  <!-- MAIN CONTENT -->
+  <!-- NAVBAR END / MAIN CONTENT START -->
 
-  <!-- DOG TABLE -->
+  <!-- MAIN TABLE -->
 
   <section class="container-fluid">
     <div class="row">
-      <div class="col-1">
-        <table>
+      <div>
+        <table class="table">
+          <tr>
+            <th>
+              <h1><strong>Topic</strong></h1>
+            </th>
+            <th>
+              <h1><strong>Choice</strong></h1>
+            </th>
+          </tr>
           <tr>
             <td>
-              <h2>Dogs</h2>
+              <h3><a href="#size">Animal size</a></h3>
             </td>
-            <td><i class="fa-regular fa-comment-dots" style="color: #000000;"></i></td>
-            <td><i class="fa-regular fa-comment-dots" style="color: #000000;"></i></td>
-            <td><i class="fa-regular fa-comment-dots" style="color: #000000;"></i></td>
-            <td><i class="fa-regular fa-comment-dots" style="color: #000000;"></i></td>
+            <td>Miniature / Small / Medium / Large / Giant</td>
+          </tr>
+          <tr>
+            <td>
+              <h3><a href="#food">Food</a></h3>
+            </td>
+            <td>Dry / Wet / Fresh / Raw / Live</td>
+          </tr>
+          <tr>
+            <td>
+              <h3><a href="#noise">Noise</a></h3>
+            </td>
+            <td>Silent / Quiet / Vocal / Loud</td>
+          </tr>
+          <tr>
+            <td>
+              <h3>Activity Level</h3>
+            </td>
+            <td>Alive? / Slow / Easy Mover / Agile / Cheetah</td>
+          </tr>
+          <tr>
+            <td>
+              <h3>Love & Attention</h3>
+            </td>
+            <td>Absent / Minimal / Belly rubs / Play fight</td>
           </tr>
         </table>
-
       </div>
     </div>
 
-    <!-- CAT TABLE -->
+    <!-- SIZE TABLE -->
 
     <div class="row">
-      <div class="col-1">
-        <table>
+      <div>
+        <table class="table" id="size">
+          <tr>
+            <th>
+              <h1><strong>Size</strong></h1>
+            </th>
+            <th>
+              <h1><strong>Breed</strong></h1>
+            </th>
+          </tr>
           <tr>
             <td>
-              <h2>Cats</h2>
+              <h3>Miniature</h3>
             </td>
-            <td><i class="fa-regular fa-comment-dots" style="color: #000000;"></i></td>
-            <td><i class="fa-regular fa-comment-dots" style="color: #000000;"></i></td>
-            <td><i class="fa-regular fa-comment-dots" style="color: #000000;"></i></td>
-            <td><i class="fa-regular fa-comment-dots" style="color: #000000;"></i></td>
+            <td>Chihuahua / Pomeranian / Yorkshire Terrier Netherland Dwarf Rabbbit / Holland Lop Rabbit / Neon Tetra /
+              Guppy / Canary</td>
           </tr>
-        </table>
-
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-1">
-        <table>
           <tr>
             <td>
-              <h2>Small Animals</h2>
+              <h3>Small</h3>
             </td>
-            <td><i class="fa-regular fa-comment-dots" style="color: #000000;"></i></td>
-            <td><i class="fa-regular fa-comment-dots" style="color: #000000;"></i></td>
-            <td><i class="fa-regular fa-comment-dots" style="color: #000000;"></i></td>
-            <td><i class="fa-regular fa-comment-dots" style="color: #000000;"></i></td>
+            <td>Beagles / Terriers / Bichon Frise / Munchkin Cat / Finch / Budgerigar / Goldfish / Corn Snake</td>
           </tr>
-        </table>
-
-      </div>
-    </div>
-
-    <!-- BIRD TABLE -->
-
-    <div class="row">
-      <div class="col-1">
-        <table>
           <tr>
             <td>
-              <h2>Birds</h2>
+              <h3>Medium</h3>
             </td>
-            <td><i class="fa-regular fa-comment-dots" style="color: #000000;"></i></td>
-            <td><i class="fa-regular fa-comment-dots" style="color: #000000;"></i></td>
-            <td><i class="fa-regular fa-comment-dots" style="color: #000000;"></i></td>
-            <td><i class="fa-regular fa-comment-dots" style="color: #000000;"></i></td>
+            <td>Bulldog / Poodle / Basset / Whippet / Border Collie / Spaniel / Burmese / Himalayan / Manx / Cockatiel /
+              Lovebirds / Cichlid</td>
+          </tr>
+          <tr>
+            <td>
+              <h3>Large</h3>
+            </td>
+            <td>Labrador / Doberman / German Shepherd / Rottweiler / Dalmation / Boxer / Old English Sheepdog / Maine
+              Coon / Ragamuffin / Ragdoll / American Bobtail / Macaw</td>
+          </tr>
+          <tr>
+            <td>
+              <h3>Giant</h3>
+            </td>
+            <td>Eagle / Hawk / Angel Fish / Butterfly Fish / Python / Constrictor / Anaconda</td>
           </tr>
         </table>
-
       </div>
     </div>
 
-    <!-- FISH TABLE -->
+    <!-- FOOD TABLE -->
 
     <div class="row">
-      <div class="col-1">
-        <table>
+      <div>
+        <table class="table" id="food">
+          <tr>
+            <th>
+              <h1><strong>Food</strong></h1>
+            </th>
+            <th>
+              <h1><strong>Description</strong></h1>
+            </th>
+          </tr>
           <tr>
             <td>
-              <h2>Fish</h2>
+              <h3>Miniature</h3>
             </td>
-            <td><i class="fa-regular fa-comment-dots" style="color: #000000;"></i></td>
-            <td><i class="fa-regular fa-comment-dots" style="color: #000000;"></i></td>
-            <td><i class="fa-regular fa-comment-dots" style="color: #000000;"></i></td>
-            <td><i class="fa-regular fa-comment-dots" style="color: #000000;"></i></td>
+            <td>Chihuahua / Pomeranian / Yorkshire Terrier Netherland Dwarf Rabbbit / Holland Lop Rabbit / Neon Tetra /
+              Guppy / Canary</td>
+          </tr>
+          <tr>
+            <td>
+              <h3>Dry</h3>
+            </td>
+            <td>Kibbles / Biscuits / Chews</td>
+          </tr>
+          <tr>
+            <td>
+              <h3>Wet</h3>
+            </td>
+            <td>Canned / Sachets / Frozen</td>
+          </tr>
+          <tr>
+            <td>
+              <h3>Fresh</h3>
+            </td>
+            <td>Home-made meals / Rice / Cooked meat / Cooked vegetables</td>
+          </tr>
+          <tr>
+            <td>
+              <h3>Raw</h3>
+            </td>
+            <td>Uncooked meat / Raw vegetables / Animal bones</td>
+          </tr>
+          <tr>
+            <td>
+              <h3>Live</h3>
+            </td>
+            <td>Insects / Rodents</td>
           </tr>
         </table>
-
       </div>
     </div>
 
-    <!-- REPTILE TABLE -->
+    <!-- NOISE TABLE -->
 
     <div class="row">
-      <div class="col-1">
-        <table>
+      <div>
+        <table class="table" id="noise">
+          <tr>
+            <th>
+              <h1><strong>Noise</strong></h1>
+            </th>
+            <th>
+              <h1><strong>Decibels</strong></h1>
+            </th>
+          </tr>
           <tr>
             <td>
-              <h2>Reptiles</h2>
+              <h3>Silent</h3>
             </td>
-            <td><i class="fa-regular fa-comment-dots" style="color: #000000;"></i></td>
-            <td><i class="fa-regular fa-comment-dots" style="color: #000000;"></i></td>
-            <td><i class="fa-regular fa-comment-dots" style="color: #000000;"></i></td>
-            <td><i class="fa-regular fa-comment-dots" style="color: #000000;"></i></td>
+            <td>
+              <p>Netherland Dwarf Rabbbit / Holland Lop Rabbit / Neon Tetra /
+                Guppy / Cichlid
+              </p>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <h3>Quiet</h3>
+            </td>
+            <td>
+              <p>Whippet / Munchkin Cat / Finch / Budgerigar / Goldfish / Corn Snake</p>
+              <audio src="assets/audio/fish_tank.mp3" type="mp3" title="Play" controls>Audio tag not supported.</audio>
+              <audio src="assets/audio/cat_meow2.mp3" type="mp3" title="Play" controls>Audio tag not supported.</audio>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <h3>Vocal</h3>
+            </td>
+            <td>
+              <p>Beagles / Terriers / Bichon Frise / Maine Coon / Ragamuffin / Ragdoll / American Bobtail / Bulldog /
+                Poodle / Basset / Border Collie / Spaniel / Burmese / Himalayan / Manx / Lovebirds / Canary</p>
+              <audio src="assets/audio/medium_dog_bark.mp3" type="mp3" title="Play" controls>Audio tag not
+                supported.</audio>
+              <audio src="assets/audio/medium_dog_bark2.wav" type="wav" title="Play" controls>Audio tag not
+                supported.</audio>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <h3>Loud</h3>
+            </td>
+            <td>
+              <p>Chihuahua / Pomeranian / Yorkshire Terrier / Labrador / Doberman / German Shepherd / Rottweiler /
+                Dalmation / Boxer / Old English Sheepdog / Cockatiel / Macaw</p>
+              <audio src="assets/audio/loud_bark.mp3" type="mp3" title="Play" controls>Audio tag not
+                supported.</audio>
+              <audio src="assets/audio/loud_birds.mp3" type="mp3" title="Play" controls>Audio tag not
+                supported.</audio>
+            </td>
           </tr>
         </table>
-
       </div>
     </div>
 
-    <!-- ARACHNID TABLE -->
-
-    <div class="row">
-      <div class="col-1">
-        <table>
-          <tr>
-            <td>
-              <h2>Arachnids</h2>
-            </td>
-            <td><i class="fa-regular fa-comment-dots" style="color: #000000;"></i></td>
-            <td><i class="fa-regular fa-comment-dots" style="color: #000000;"></i></td>
-            <td><i class="fa-regular fa-comment-dots" style="color: #000000;"></i></td>
-            <td><i class="fa-regular fa-comment-dots" style="color: #000000;"></i></td>
-          </tr>
-        </table>
-
-      </div>
-    </div>
-
-    <!-- OTHER TABLE -->
-
-    <div class="row">
-      <div class="col-1">
-        <table>
-          <tr>
-            <td>
-              <h2>...other?</h2>
-            </td>
-            <td><i class="fa-regular fa-comment-dots" style="color: #000000;"></i></td>
-            <td><i class="fa-regular fa-comment-dots" style="color: #000000;"></i></td>
-            <td><i class="fa-regular fa-comment-dots" style="color: #000000;"></i></td>
-            <td><i class="fa-regular fa-comment-dots" style="color: #000000;"></i></td>
-          </tr>
-        </table>
-
-      </div>
-    </div>
   </section>
 
   <!-- FOOTER START -->
 
-  <section class="footer">
-    <div class="container-fluid">
-      <div class="row">
-        <div class="col ft-lh-col">
-          <h4>Find inspiration:</h4>
-          <p>
-            <a href="https://www.youtube.com" target="_blank" rel="noopener">
-              <i class="fa-brands fa-youtube" style="color: #000000;"></i></a>
-            <a href="https://www.facebook.com" target="_blank" rel="noopener">
-              <i class="fa-brands fa-square-facebook" style="color: #000000"></i></a>
-            <a href="https://www.instagram.com" target="_blank" rel="noopener">
-              <i class="fa-brands fa-square-instagram" style="color: #000000"></i></a>
-            <a href="https://www.twitter.com" target="_blank" rel="noopener">
-              <i class="fa-brands fa-square-x-twitter" style="color: #000000"></i></a>
-          </p>
-          <i class="fa-solid fa-paw"></i> The Bark Side
-        </div>
-        <div class="col ft-rh-col">
-          <h3>Have questions?</h3>
-          <br>
-          <p>
-            <a href="form.html">Ask us<i class="fa-solid fa-envelope-open" style="color: #000000;"></i></a>
-          </p>
-        </div>
+  <section class="container-fluid">
+    <div class="row">
+      <div class="col ft-lh-col">
+        <h4>Find inspiration:</h4>
+        <p>
+          <a href="https://www.youtube.com" target="_blank" rel="noopener">
+            <i class="fa-brands fa-youtube" style="color: #000000;"></i></a>
+          <a href="https://www.facebook.com" target="_blank" rel="noopener">
+            <i class="fa-brands fa-square-facebook" style="color: #000000"></i></a>
+          <a href="https://www.instagram.com" target="_blank" rel="noopener">
+            <i class="fa-brands fa-square-instagram" style="color: #000000"></i></a>
+          <a href="https://www.twitter.com" target="_blank" rel="noopener">
+            <i class="fa-brands fa-square-x-twitter" style="color: #000000"></i></a>
+        </p>
+        <i class="fa-solid fa-paw"></i> The Bark Side
+      </div>
+      <div class="col ft-rh-col">
+        <h3>Have questions?</h3>
+        <br>
+        <p>
+          <a href="form.html">Ask us<i class="fa-solid fa-envelope-open" style="color: #000000;"></i></a>
+        </p>
       </div>
     </div>
   </section>
