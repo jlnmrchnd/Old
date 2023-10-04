@@ -4,10 +4,10 @@ THE BARK SIDE
 
 # PURPOSE & OBJECTIVE:  
 To:  
-Share information on common pets  
-Host a signup form for visitors to receive monthly newsletter with personalised pet updates  
-Share images of animals and create a positive happy feeling about the site  
-Assist in the decision making process regarding which pet is most suitable
+* Share information on common pets  
+* Host a signup form for visitors to receive monthly newsletter with personalised pet updates  
+* Share images of animals and create a positive happy feeling about the site  
+* Assist in the decision making process regarding which pet is most suitable
 
 
 # META DESCRIPTION:  
