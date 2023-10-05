@@ -118,7 +118,7 @@ Gallery page: [Code Institute - Love Running project](https://learn.codeinstitut
 After completing this project, the idea of a gallery page was decided and many variations tried
    	
 CSS grid: [Scrimba](https://scrimba.com/learn/cssgrid)  
-Considering Bootstrap options, and after watching the "Learn CSS Grid" tutorial, the bootstrap grid system of 12 columns was implemented as the main layout of the site  
+Considering Bootstrap options, and after watching the "Learn CSS Grid" tutorial, the responsive flex image grid was implemented for the gallery, breaking with the Bootstrap 12-column format of the rest of the site
 
 # TESTING:  
 W3 HTML Validator (https://validator.w3.org/#validate_by_input)  
