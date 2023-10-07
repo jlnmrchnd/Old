@@ -10,8 +10,6 @@
     content="pet, pets, dog, cat, rabbit, bunny, guinea pig, hamster, fish, reptile, bird, health, vet, food">
   <meta name="author" content="Julien Marchand">
   <script src="https://kit.fontawesome.com/756d34e92f.js" crossorigin="anonymous"></script>
-  <link href="https://fonts.googleapis.com/css2?family=Lato&family=Oswald&family=Wix+Madefor+Display&display=swap"
-    rel="stylesheet">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
   <link rel="stylesheet" href="assets/css/style.css" type="text/css">
@@ -22,127 +20,118 @@
 
   <!-- BOOTSTRAP NAVBAR START -->
 
-  <nav class="navbar navbar-expand-lg bg-body-tertiary">
-    <div class="container-fluid navbar">
-      <a class="navbar-brand" href="index.html"><i class="fa-solid fa-paw"></i>The Bark Side</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
-        aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNavDropdown">
-        <ul class="navbar-nav">
-          <li class="nav-item">
-            <a class="nav-link" href="about.html">About Us</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="pets.html">Pets</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="gallery.html">Gallery</a>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-              Help
-            </a>
-            <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="#footer">Contact us</a></li>
-              <li><a class="dropdown-item" href="form.html">Questions or suggestions?</a></li>
-              <li><a class="dropdown-item" href="faq.html">FAQ</a></li>
-            </ul>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </nav>
-
-  <!-- NAVBAR END / MAIN START -->
-
-  <section class="container-fluid main-content">
-    <div class="row">
-      <div class="col content-block block-one">
-        <h2><i class="fa-regular fa-comment-dots" style="color: #000000;"></i>
-          <p>
-            Help with finding a pet
-          </p>
-        </h2>
-        <div class="col block-one-image">
-          <a><img src="assets/images/walkies.jpg" alt="dogs being walked on-lead"></a>
+  <header>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid navbar">
+        <a class="navbar-brand" href="index.html">
+          <h1><strong><i class="fa-solid fa-paw"></i>The Bark Side</strong></h1>
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">About Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="pets.html">Pets</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="gallery.html">Gallery</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="form.html">Sign Up</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                Help
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#footer">Contact us on Social Media</a></li>
+                <li><a class="dropdown-item" href="form.html">Questions or comments?</a></li>
+                <li><a class="dropdown-item" href="faq.html" aria-label="frequently asked questions">FAQ</a>
+                </li>
+              </ul>
+            </li>
+          </ul>
         </div>
       </div>
-      <div class="col content-block block-two">
-        <h2><i class="fa-regular fa-circle-question" style="color: #000000;"></i>
-          <p>
-            Start your pet search
-          </p>
-        </h2>
-        <div class="row">
-          <div class="col block-two-image">
-            <a><img src="assets/images/kitten_shelf.jpg" alt="a kitten with one paw on the windowsil"></a>
+    </nav>
+  </header>
+
+  <!-- NAVBAR END / CONTENT START -->
+
+  <section class="main-content">
+    <div class="container-fluid">
+      <h2 id="main-heading">Thinking about owning a pet?</h2>
+      <p>You'll find some useful information on pet ownership - as a starting point in making the right choice!</p>
+      <p>Follow the links below to critical insights into what owning a pet involves. </p>
+    </div>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-xs-1 col-sm-6 content-block block-one">
+          <h3><strong><a href="about.html">Helpful Tips</a></strong></h3>
+          <p>A lending paw on quality food, reputable breeders and more!</p>
+          <div class="row">
+            <a><img src="assets/images/dog-five-walking.jpg" alt="dogs being walked on-lead"></a>
+          </div>
+        </div>
+        <div class="col-xs-1 col-sm-6 content-block block-two">
+          <h2><strong><a href="about.html">Just Starting?</a></strong></h2>
+          <p>A list of the considerations for each animal.</p>
+          <div class="row">
+            <a><img src="assets/images/cat-kit" alt="a kitten with one paw on the windowsil"></a>
           </div>
         </div>
       </div>
-      <div class="col content-block block-three">
-        <h2><i class="fa-solid fa-check" style="color: #000000;"></i>
-          <p>
-            Have a pet in mind?
-          </p>
-        </h2>
-        <div class="row">
-          <a><img src="assets/images/cat_lying.jpg" alt="a cat looking to the side"></a>
+      <div class="row">
+        <div class="col-xs-1 col-sm-6 content-block block-three">
+          <h2><strong><a href="about.html">Ready to choose</a></strong></h2>
+          <p>Consider these pros and cons.</p>
+          <div class="row">
+            <a href="pets.html"><img src="assets/images/cat-lying-sidelook.jpg" alt="a cat looking to the side"></a>
+          </div>
+        </div>
+        <div class="col-xs-1 col-sm-6 content-block block-four">
+          <h2><strong><a href="gallery.html">...a thousand words!</a></strong></h2>
+          <p>Take a look at some of the <i>purrfect</i> pics our users have shared.</p>
+          <div class="row">
+            <a href="gallery.html"><img src="assets/images/dog-puppy-lick.jpg" alt="a puppy licking its paw"></a>
+          </div>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- MAIN END / WRAPPER START -->
+  <!-- CONTENT END / FOOTER START -->
 
-  <section class="wrapper">
-    <div class="container-fluid">
-      <div class="row">
-        <div>
-          <h2>...a thousand words!</h2>
-          <p>Take a look at some of the <i>purrfect</i> pics our users have shared.
-          </p>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col">
-          <a href="gallery.html"><img src="assets/images/puppy_licking_paw.jpg" alt="???"></a>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- WRAPPER END / FOOTER START -->
-
-  <section class="footer" id="footer">
-    <div class="container-fluid">
+  <footer id="footer">
+    <section class="container-fluid">
       <div class="row">
         <div class="col ft-lh-col">
-          <h4>Find inspiration:</h4>
+          <h3>Find inspiration:</h3>
           <p>
             <a href="https://www.youtube.com" target="_blank" rel="noopener">
-              <i class="fa-brands fa-youtube" style="color: #000000;"></i></a>
+              <i class="fa-brands fa-youtube"></i></a>
             <a href="https://www.facebook.com" target="_blank" rel="noopener">
-              <i class="fa-brands fa-square-facebook" style="color: #000000"></i></a>
+              <i class="fa-brands fa-square-facebook"></i></a>
             <a href="https://www.instagram.com" target="_blank" rel="noopener">
-              <i class="fa-brands fa-square-instagram" style="color: #000000"></i></a>
+              <i class="fa-brands fa-square-instagram"></i></a>
             <a href="https://www.twitter.com" target="_blank" rel="noopener">
-              <i class="fa-brands fa-square-x-twitter" style="color: #000000"></i></a>
+              <i class="fa-brands fa-square-x-twitter"></i></a>
           </p>
           <i class="fa-solid fa-paw"></i> The Bark Side
         </div>
         <div class="col ft-rh-col">
           <h3>Have questions?</h3>
-          <br>
-          <p>
-            <a href="form.html">Ask us<i class="fa-solid fa-envelope-open" style="color: #000000;"></i></a>
-          </p>
+          <p><a href="form.html">Ask us<i class="fa-regular fa-comment-dots"></i></a></p>
         </div>
       </div>
-    </div>
-  </section>
-
+    </section>
+  </footer>
   <!-- FOOTER END / SCRIPTS START -->
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
