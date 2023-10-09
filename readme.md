@@ -120,6 +120,9 @@ After completing this project, the idea of a gallery page was decided and many v
 CSS grid: [Scrimba](https://scrimba.com/learn/cssgrid)  
 Considering Bootstrap options, and after watching the "Learn CSS Grid" tutorial, the responsive flex image grid was implemented for the gallery, breaking with the Bootstrap 12-column format of the rest of the site
 
+R. Mclelland: Code Institute mentor
+With major support, advice and suggestions from Ronan, I was able to take huge steps forward in productivity and ways of working. Many resources were discussed, including where all the images for this site were sourced, and converted from <code>.jpg</code> to <code>.webp</code> format 
+
 # TESTING:  
 W3 HTML Validator (https://validator.w3.org/#validate_by_input)  
 Regular validation of HTML
