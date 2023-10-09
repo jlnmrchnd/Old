@@ -131,4 +131,13 @@ W3 CSS Validator (https://jigsaw.w3.org/css-validator/)
 Regular validation of CSS
 
 # DEPLOYMENT PROCEDURE
-?????
+This project was deployed using GitHub pages. The steps followed were:
+
+From within GitHub, and the repository for this project, select settings
+Under 'Code & Automation' on the left-hand menu, select 'Pages'
+Under 'Build & Deployment' select 'Deplo from branch'
+Under 'Branch' select 'Main' as the source, and 'folder' as '/(root)' (default value)
+Press Save
+A box at the top of the 'Pages' page shows the site is live and the related URL.
+
+[Link to The Bark Side] (https://jlnmrchnd.github.io/Milestone1/)
