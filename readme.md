@@ -140,4 +140,4 @@ Under 'Branch' select 'Main' as the source, and 'folder' as '/(root)' (default v
 Press Save
 A box at the top of the 'Pages' page shows the site is live and the related URL.
 
-[Link to The Bark Side] (https://jlnmrchnd.github.io/Milestone1/)
+[Link to The Bark Side](https://jlnmrchnd.github.io/Milestone1/)
