@@ -133,11 +133,13 @@ Regular validation of CSS
 # DEPLOYMENT PROCEDURE
 This project was deployed using GitHub pages. The steps followed were:
 
-From within GitHub, and the repository for this project, select settings
-Under 'Code & Automation' on the left-hand menu, select 'Pages'
-Under 'Build & Deployment' select 'Deplo from branch'
-Under 'Branch' select 'Main' as the source, and 'folder' as '/(root)' (default value)
-Press Save
-A box at the top of the 'Pages' page shows the site is live and the related URL.
+<ol>
+<li>From within GitHub, and the repository for this project, select settings</li>
+<li>Under 'Code & Automation' on the left-hand menu, select 'Pages'</li>
+<li>Under 'Build & Deployment' select 'Deplo from branch'</li>
+<li>Under 'Branch' select 'Main' as the source, and 'folder' as '/(root)' (default value)</li>
+<li>Press Save</li>
+<li>A box at the top of the 'Pages' page shows the site is live and the related URL.</li>
+</ol>
 
 [Link to The Bark Side](https://jlnmrchnd.github.io/Milestone1/)
