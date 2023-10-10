@@ -140,13 +140,13 @@
           <h4>Find inspiration:</h4>
           <p>
             <a href="https://www.youtube.com" target="_blank" rel="noopener">
-              <i class="fa-brands fa-youtube" style="color: #000000;"></i></a>
+              <i class="fa-brands fa-youtube"></i></a>
             <a href="https://www.facebook.com" target="_blank" rel="noopener">
-              <i class="fa-brands fa-square-facebook" style="color: #000000"></i></a>
+              <i class="fa-brands fa-square-facebook"></i></a>
             <a href="https://www.instagram.com" target="_blank" rel="noopener">
-              <i class="fa-brands fa-square-instagram" style="color: #000000"></i></a>
+              <i class="fa-brands fa-square-instagram"></i></a>
             <a href="https://www.twitter.com" target="_blank" rel="noopener">
-              <i class="fa-brands fa-square-x-twitter" style="color: #000000"></i></a>
+              <i class="fa-brands fa-square-x-twitter"></i></a>>
           </p>
           <i class="fa-solid fa-paw"></i> The Bark Side
         </div>
