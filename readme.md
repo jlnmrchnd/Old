@@ -28,12 +28,11 @@ pet, animal, dog, cat, bunny, rabbit, guinea pig, fish, bird, exercise, food, ha
 
 
 # USER OBJECTIVES:  
-Appealing images  
+Appealing images of pets at their best  
 Relevant information on pet ownership, grouped by animal type  
-Simple navigation by characteristic of choice (to be improved in future editions using JavaScript)
-Signup form for updates / newsletter
-The option to upload images of your own pet to the gallery page
-FAQ section for quick reference
+Simple navigation by characteristic of choice (to be improved in future editions using JavaScript)  
+Form allowing users to join the mailing list, ask a question, or upload an image of their pet to the gallery page
+FAQ section for quick reference  
 
 
 # UX DESIGN:  
