@@ -83,6 +83,13 @@ iframe {
   padding-bottom: 20px;
 }
 
+.ft-rh-col-form {
+  background-color: var(--eggplant);
+  text-align: right;
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+
 .ft-rh-col a {
   text-decoration: none;
   color: white;
