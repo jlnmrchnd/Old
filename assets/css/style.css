@@ -265,18 +265,6 @@ iframe {
   border-bottom: 1px solid var(--grey);
 }
 
-.block-one img {
-  bottom: 0;
-}
-
-.block-two img {
-  bottom: 0;
-}
-
-.block-three img {}
-
-.block-four img {}
-
 /* /////////
 // NAVBAR //
 ///////// */
@@ -333,7 +321,20 @@ table div a {
 // BREAKPOINTS //
 ////////////// */
 
-@media only screen and (max-width: 576px) {}
+@media only screen and (max-width: 576px) {
+
+  footer {
+    font-size: .8em;
+  }
+
+  .ft-lh-col i {
+    font-size: 110%;
+  }
+
+  .ft-rh-col a {
+    font-size: 80%;
+  }
+}
 
 @media screen and (min-width: 576px) {
   .content-block {
