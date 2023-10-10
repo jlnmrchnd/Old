@@ -142,4 +142,4 @@ This project was deployed using GitHub pages. The steps followed were:
 <li>A box at the top of the 'Pages' page shows the site is live and the related URL.</li>
 </ol>
 
-[Link to The Bark Side](https://jlnmrchnd.github.io/thebarkside/))
+[Link to The Bark Side](https://jlnmrchnd.github.io/thebarkside/)
