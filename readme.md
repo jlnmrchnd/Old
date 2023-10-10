@@ -124,10 +124,10 @@ R. Mclelland: Code Institute mentor
 With major support, advice and suggestions from Ronan, I was able to take huge steps forward in productivity and ways of working. Many resources were discussed, including where all the images for this site were sourced, and converted from <code>.jpg</code> to <code>.webp</code> format 
 
 # TESTING:  
-W3 HTML Validator (https://validator.w3.org/#validate_by_input)  
+[W3 HTML Validator](https://validator.w3.org/#validate_by_input)  
 Regular validation of HTML
   
-W3 CSS Validator (https://jigsaw.w3.org/css-validator/)  
+[W3 CSS Validator](https://jigsaw.w3.org/css-validator/)  
 Regular validation of CSS
 
 # DEPLOYMENT PROCEDURE
