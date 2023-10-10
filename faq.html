@@ -10,8 +10,6 @@
     content="pet, pets, dog, cat, rabbit, bunny, guinea pig, hamster, fish, reptile, bird, health, vet, food">
   <meta name="author" content="Julien Marchand">
   <script src="https://kit.fontawesome.com/756d34e92f.js" crossorigin="anonymous"></script>
-  <link href="https://fonts.googleapis.com/css2?family=Lato&family=Oswald&family=Wix+Madefor+Display&display=swap"
-    rel="stylesheet">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
   <link rel="stylesheet" href="assets/css/style.css" type="text/css">
@@ -20,133 +18,247 @@
 
 <body>
 
-  <!-- BOOTSTRAP NAVBAR -->
+  <!-- BOOTSTRAP NAVBAR START -->
 
-  <nav class="navbar navbar-expand-lg bg-body-tertiary">
-    <div class="container-fluid">
-      <a class="navbar-brand" href="index.html"><i class="fa-solid fa-paw"></i> The Bark Side</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
-        aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNavDropdown">
-        <ul class="navbar-nav">
-          <li class="nav-item">
-            <a class="nav-link" href="pets.html">Pets</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="gallery.html">Gallery</a>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="gallery.html" role="button" data-bs-toggle="dropdown"
-              aria-expanded="false">
-              Help
-            </a>
-            <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="#footer">Contact us</a></li>
-              <li><a class="dropdown-item" href="form.html">Questions or suggestions?</a></li>
-              <li><a class="dropdown-item" href="faq.html">FAQ</a></li>
-            </ul>
-        </ul>
-        </li>
-        </ul>
+  <header>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid navbar">
+        <a class="navbar-brand" href="index.html">
+          <h1><strong><i class="fa-solid fa-paw"></i>The Bark Side</strong></h1>
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">About Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="pets.html">Pets</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="gallery.html">Gallery</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="form.html">Sign Up</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                Help
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#footer">Contact us on Social Media</a></li>
+                <li><a class="dropdown-item" href="form.html">Questions or comments?</a></li>
+                <li><a class="dropdown-item" href="faq.html" aria-label="frequently asked questions">FAQ</a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </div>
       </div>
-    </div>
-  </nav>
+    </nav>
+  </header>
 
-  <!-- MAIN CONTENT BOOTSTRAP ACCORDION -->
+  <!-- NAVBAR END / BOOTSTRAP ACCORDION START -->
 
-  <section class="FAQ-intro">
-    <p><strong>Frequently Asked Questions</strong></p>
+  <section class="faq-intro">
+    <p><strong><i class="fa-regular fa-circle-question" style="color: #000000;"></i> Frequently Asked Questions</strong>
+    </p>
     <p>Some frequent questions regarding pets, their needs, energy levels, food, toys, space requirements...and more!
     </p>
-  </section>
 
-  <div class="accordion" id="accordionPanelsStayOpenExample">
-    <div class="accordion-item">
-      <h2 class="accordion-header">
-        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-          data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="false" aria-controls="panelsStayOpen-collapseOne">
-          What is the best pet?
-        </button>
-      </h2>
-      <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse">
-        <div class="accordion-body">
-          <strong>The best pet?
+
+    <div class="accordion" id="accordionExample">
+      <div class="accordion-item">
+
+        <!-- ACCORDION FAQ 1 -->
+
+        <h2 class="accordion-header" id="headingOne">
+          <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
+            aria-expanded="true" aria-controls="collapseOne">
+            Can I use my dogs flea product on my cat?
+          </button>
+        </h2>
+        <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+          data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            <strong>No.</strong> canine products are potentially fatal for cats. Cats and dogs have different products
+            for fleas as they are tailored to be effective on that particular animal, and can be ineffective or fatal if
+            used incorrectly.
+          </div>
+        </div>
+      </div>
+
+      <!-- ACCORDION FAQ 2 -->
+
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingTwo">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+            data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+            How often should I worm my pet?
+          </button>
+        </h2>
+        <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+          data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            <p>We recommend worming for dogs and cats <strong> every 3 months</strong>, although if your cat is a
+              regular
+              hunter then monthly worming may be necessary.</p>
+            <p>Worms are not only harmful to pets but to their owners too.
+              Dogs who live with, and are petted by small children, should ideally be wormed monthly. Please speak with
+              your vet about the range of products on offer and the most suitable and effective one for your pet. Your
+              vet
+              will also be able to give advice on how often you should worm your pet, based on your individual
+              circumstances.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- ACCORDION FAQ 3 -->
+
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingThree">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+            data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+            What can I do to help prevent dental disease in my rabbit?
+          </button>
+        </h2>
+        <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+          data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            A rabbit's teeth never stop growing. Feed a well-balanced diet high
+            in fibre; a rabbit's diet should be <strong>mainly made up of hay (80-85%).</strong> As a guide, this means
+            that a rabbit
+            should <em>eat their body size in hay a day</em>. This increases grinding, dental wear and promotes gut
+            movement.
+            <br>
+            <br>
+            Pellet foods are advised over a mixed muesli as rabbits will pick their favourite parts of the food, often
+            leaving the most nutritional parts.
+            <br>
+            <br>
+            Feed a maximum of one tablespoon per day for dwarf and standard rabbits
+            and two tablespoons for giant breeds.
+          </div>
+        </div>
+      </div>
+
+      <!-- ACCORDION FAQ 4 -->
+
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingFour">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+            data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+            Can I feed my dog avocado?
+          </button>
+        </h2>
+        <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
+          data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            <strong>No. </strong> Other foods you should not let a dog eat include:
+            <ul>
+              <li>Chocolate - methylxanthines can stop their metabolic process, causing seizures, irregular heart
+                function and, in serious cases, death.</li>
+              <li>Avocados - Their fatty acid, persin, is toxic to dogs.</li>
+              <li>Onions & Garlic - These destroy red blood cells in dogs, causing anemia.</li>
+              <li>Grapes (and raisins) - Kidney failure? Just don't.</li>
+              <li>Milk & dairy - Mother's milk is fine, but no cow, goat or other milk. The sugars and fatty acids can't
+                be digested.</li>
+              <li>Macadamia nuts...? Poisonous to dogs. Avoid.</li>
+              <li>Caffeine - see chocolate.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <!-- ACCORDION FAQ 5 -->
+
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingFive">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+            data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+            Which is a better pet - a cat or a dog?
+          </button>
+        </h2>
+        <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive"
+          data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            <p><strong>A dog. Jokes! </strong></p>
+            <p>Here are some factors to consider:</p>
+            <p>Cats have over one hundred vocal sounds, while dogs only have about ten.</p>
+            <p>Cats sleep for around 70% of their lives which can be up to 16 hours a day.</p>
+            <p>Dogs can tell time better than we think – they have an internal clock just like us! No need to set a
+              reminder - your pooch will come and get you!</p>
+            <p>87% of dog owners say their dog curls up beside them or at their feet while they watch TV / snooze.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- ACCORDION FAQ 6 -->
+
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingSix">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+            data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+            Are quality toys really that necessary?
+          </button>
+        </h2>
+        <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix"
+          data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            A dog’s mouth exerts <strong>150-200 pounds of pressure per square inch.</strong> Some dog breeds can exert
+            up to 450 pounds per square inch. Super chewers need toys that can stand up to the toughest play.
+            <br>
+            We recommemnd <a href="https://www.kongcompany.com/" target="_blank" title="Take me to Kong!"
+              aria-label="Link to kongcompany.com"><em>Kong</em></a>.
+          </div>
+        </div>
+      </div>
+
+      <!-- ACCORDION FAQ 7 -->
+
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingSeven">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+            data-bs-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
+            What's the deal with cats and (cardboard) boxes?
+          </button>
+        </h2>
+        <div id="collapseSeven" class="accordion-collapse collapse" aria-labelledby="headingSeven"
+          data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            <p>Studies show that cats who have access to a box of sorts will likely settle in to a new environment more
+              quickly. Why?</p>
+            <p>The box serves as a source of comfort. Studies show that providing a "safe zone" helps to reduce stress
+              levels and makes it easier for cats to become comfortable in a new environment.</p>
+            <p>Any small space makes for a great hideout, and many animals (humans included) are naturally comforted by
+              confined spaces. <a href="https://www.amazon.co.uk/" target="_blank"
+                title="Take me to Amazon - a box for all occasions!"><em>Get a box!</em></a></p>
+          </div>
         </div>
       </div>
     </div>
-    <div class="accordion-item">
-      <h2 class="accordion-header">
-        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-          data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
-          My pet is always hungry. How do I not overfeed?
-        </button>
-      </h2>
-      <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse">
-        <div class="accordion-body">
-          <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin
-          adds the appropriate classes that we use to style each element. These classes control the overall appearance,
-          as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or
-          overriding our default variables. It's also worth noting that just about any HTML can go within the
-          <code>.accordion-body</code>, though the transition does limit overflow.
-        </div>
-      </div>
-    </div>
-    <div class="accordion-item">
-      <h2 class="accordion-header">
-        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-          data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false"
-          aria-controls="panelsStayOpen-collapseThree">
-          Information on the pet I want / have is not shown. What do I do?
-        </button>
-      </h2>
-      <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse">
-        <div class="accordion-body">
-          <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin
-          adds the appropriate classes that we use to style each element. These classes control the overall appearance,
-          as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or
-          overriding our default variables. It's also worth noting that just about any HTML can go within the
-          <code>.accordion-body</code>, though the transition does limit overflow.
-        </div>
-      </div>
-    </div>
-    <div class="accordion-item">
-      <h2 class="accordion-header">
-        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-          data-bs-target="#panelsStayOpen-collapseFour" aria-expanded="false"
-          aria-controls="panelsStayOpen-collapseFour">
-          I have a rather unusual pet
-        </button>
-      </h2>
-      <div id="panelsStayOpen-collapseFour" class="accordion-collapse collapse">
-        <div class="accordion-body">
-          <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin
-          adds the appropriate classes that we use to style each element. These classes control the overall appearance,
-          as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or
-          overriding our default variables. It's also worth noting that just about any HTML can go within the
-          <code>.accordion-body</code>, though the transition does limit overflow.
-        </div>
-      </div>
-    </div>
-  </div>
+  </section>
 
   <!-- BOOTSTRAP ACCORDION END / FOOTER START -->
 
-  <section class="footer">
-    <div class="container-fluid">
+  <footer id="footer">
+    <section class="container-fluid">
       <div class="row">
         <div class="col ft-lh-col">
           <h4>Find inspiration:</h4>
           <p>
             <a href="https://www.youtube.com" target="_blank" rel="noopener">
-              <i class="fa-brands fa-youtube"></i></a>
+              <i class="fa-brands fa-youtube" style="color: #000000;"></i></a>
             <a href="https://www.facebook.com" target="_blank" rel="noopener">
-              <i class="fa-brands fa-square-facebook"></i></a>
+              <i class="fa-brands fa-square-facebook" style="color: #000000"></i></a>
             <a href="https://www.instagram.com" target="_blank" rel="noopener">
-              <i class="fa-brands fa-square-instagram"></i></a>
+              <i class="fa-brands fa-square-instagram" style="color: #000000"></i></a>
             <a href="https://www.twitter.com" target="_blank" rel="noopener">
-              <i class="fa-brands fa-square-x-twitter"></i></a>>
+              <i class="fa-brands fa-square-x-twitter" style="color: #000000"></i></a>
           </p>
           <i class="fa-solid fa-paw"></i> The Bark Side
         </div>
@@ -158,10 +270,8 @@
           </p>
         </div>
       </div>
-    </div>
-  </section>
-
-  <!-- FOOTER END / SCRIPTS START -->
+    </section>
+  </footer>
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
