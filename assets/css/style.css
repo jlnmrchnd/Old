@@ -215,6 +215,10 @@ iframe {
   display: table;
 }
 
+.gallery-form {
+  width: 250px;
+}
+
 /* ///////
 // HELP //
 /////// */
