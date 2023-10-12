@@ -28,12 +28,11 @@ pet, animal, dog, cat, bunny, rabbit, guinea pig, fish, bird, exercise, food, ha
 
 
 # USER OBJECTIVES:  
-Appealing images  
+Appealing images of pets at their best  
 Relevant information on pet ownership, grouped by animal type  
-Simple navigation by characteristic of choice (to be improved in future editions using JavaScript)
-Signup form for updates / newsletter
-The option to upload images of your own pet to the gallery page
-FAQ section for quick reference
+Simple navigation by characteristic of choice (to be improved in future editions using JavaScript)  
+Form allowing users to join the mailing list, ask a question, or upload an image of their pet to the gallery page
+FAQ section for quick reference  
 
 
 # UX DESIGN:  
@@ -121,13 +120,13 @@ CSS grid: [Scrimba](https://scrimba.com/learn/cssgrid)
 Considering Bootstrap options, and after watching the "Learn CSS Grid" tutorial, the responsive flex image grid was implemented for the gallery, breaking with the Bootstrap 12-column format of the rest of the site
 
 R. Mclelland: Code Institute mentor
-With major support, advice and suggestions from Ronan, I was able to take huge steps forward in productivity and ways of working. Many resources were discussed, including where all the images for this site were sourced, and converted from <code>.jpg</code> to <code>.webp</code> format 
+With major support, advice and suggestions from Ronan, I was able to take huge steps forward in productivity and ways of working. Many resources were discussed, including images, colour, design and IDE's.
 
 # TESTING:  
-W3 HTML Validator (https://validator.w3.org/#validate_by_input)  
+[W3 HTML Validator](https://validator.w3.org/#validate_by_input)  
 Regular validation of HTML
   
-W3 CSS Validator (https://jigsaw.w3.org/css-validator/)  
+[W3 CSS Validator](https://jigsaw.w3.org/css-validator/)  
 Regular validation of CSS
 
 # DEPLOYMENT PROCEDURE
@@ -142,4 +141,4 @@ This project was deployed using GitHub pages. The steps followed were:
 <li>A box at the top of the 'Pages' page shows the site is live and the related URL.</li>
 </ol>
 
-[Link to The Bark Side](https://jlnmrchnd.github.io/Milestone1/)
+[Link to The Bark Side](https://jlnmrchnd.github.io/thebarkside/)
