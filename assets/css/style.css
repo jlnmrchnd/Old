@@ -265,18 +265,6 @@ iframe {
   border-bottom: 1px solid var(--grey);
 }
 
-.block-one img {
-  bottom: 0;
-}
-
-.block-two img {
-  bottom: 0;
-}
-
-.block-three img {}
-
-.block-four img {}
-
 /* /////////
 // NAVBAR //
 ///////// */
@@ -321,19 +309,46 @@ th {
 
 table h1,
 h2,
-h3 {
+h3, h4, h5, h5, h6 {
   display: inline;
 }
 
-table div a {
+table th a {
   float: right;
+}
+
+tr h1, h2, h3, h4, h5, h6 {
+  display: inline;
+}
+
+.no-bullets {
+  list-style-type: none;
+}
+
+.carousel-img {
+  height: 200px;
+  width: 300px;
+  overflow: hidden;
 }
 
 /* //////////////
 // BREAKPOINTS //
 ////////////// */
 
-@media only screen and (max-width: 576px) {}
+@media only screen and (max-width: 576px) {
+
+  footer {
+    font-size: .8em;
+  }
+
+  .ft-lh-col i {
+    font-size: 110%;
+  }
+
+  .ft-rh-col a {
+    font-size: 80%;
+  }
+}
 
 @media screen and (min-width: 576px) {
   .content-block {
