@@ -309,12 +309,26 @@ th {
 
 table h1,
 h2,
-h3 {
+h3, h4, h5, h5, h6 {
   display: inline;
 }
 
-table div a {
+table th a {
   float: right;
+}
+
+tr h1, h2, h3, h4, h5, h6 {
+  display: inline;
+}
+
+.no-bullets {
+  list-style-type: none;
+}
+
+.carousel-img {
+  height: 200px;
+  width: 300px;
+  overflow: hidden;
 }
 
 /* //////////////
